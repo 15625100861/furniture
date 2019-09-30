@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body,
+        div,
+        ul,
+        li,
+        hr {
+            margin: 0;
+            padding: 0;
+        }
+        
+        div,
+        a {
+            display: block;
+        }
+        
+        .header .topbar .columns>ul li.qrcode {
+            position: relative;
+        }
+        
+        .header {
+            width: 1280px;
+            height: 180px;
+            background-color: #cfd8dc;
+            margin: 0 auto;
+        }
+        
+        .columns {
+            float: left;
+        }
+        
+        .topbar,
+        a {
+            color: #666666;
+        }
+        
+        a {
+            text-decoration: none;
+            line-height: inherit;
+            cursor: pointer;
+        }
+        
+        .topbar {
+            height: 35px;
+            font-size: 0.8rem;
+            line-height: 35px;
+        }
+        
+        .large-6 {
+            width: 50%;
+        }
+        
+        .no-bullet {
+            list-style: none;
+        }
+        
+        .qrcode {
+            margin-left: 50px;
+            margin-right: 5px;
+        }
+        
+        .shuxian {
+            width: 1px;
+            height: 16px;
+            background-color: #666666;
+            margin-bottom: -3px;
+        }
+        
+        .header .topbar .columns>ul li,
+        .topbar-right-a,
+        .topbar-right-a-a,
+        .shuxian,
+        .setting-header-input,
+        .header-row-2-left {
+            display: inline-block;
+        }
+        
+        .text-right {
+            text-align: right;
+            margin: 0;
+        }
+        
+        .topbar-right-a {
+            width: 138px;
+            height: 16px;
+        }
+        
+        .topbar-right-a-a {
+            width: 36px;
+            height: 16px;
+        }
+        
+        .columns:last-child:not(:first-child) {
+            float: right;
+        }
+        
+        .header-row-2 {
+            height: 94px;
+        }
+        
+        .setting-header-input {
+            width: 92%;
+            height: 100%;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+        
+        .header-row-2-left {
+            width: 270px;
+            border: 0px;
+        }
+        
+        .header form {
+            height: 34px;
+            margin-top: 29px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="topbar row ">
+            <div class="large-6 columns">
+                <ul class="no-bullet">
+                    <li class="qrcode">
+                        <a>移动端</a>
+                    </li>
+                    <div class="shuxian"></div>
+                    <li>
+                        <a>加入收藏</a>
+                    </li>
+                    <div class="shuxian"></div>
+                    <li>
+                        <a>分享</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="large-6 columns  text-right">
+                <a class="topbar-right-a" href="">没有账号？点此注册</a>
+                <div class="shuxian"></div>
+                <a class="topbar-right-a-a" href="">登录</a>
+            </div>
+            <hr style="color:#cfd8dc">
+        </div>
+        <div class="header-row-2">
+            <div class="header-row-2-left columns">
+                <h1>
+                    <a href=""></a>
+                    <img src="//asset.ibanquan.com/s/63985/0/logo?v=1566815182_1566815182" alt="Knock">
+                </h1>
+            </div>
+            <div class="large-6 columns">
+                <form action="/search">
+                    <input class="setting-header-input columns" type="text">
+                </form>
+            </div>
+            <div></div>
+        </div>
+    </div>
+</body>
+
+</html>
